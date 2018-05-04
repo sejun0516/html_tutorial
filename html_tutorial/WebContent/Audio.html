@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="EUC-KR">
+		<title>Audio</title>
+	</head>
+	
+	<body>
+		<h1>HTML5 Audio &lt;audio&gt;태그</h1>
+			<div>
+					<!--  index페이지로 이동 -->
+					<a href="./index.html">목록</a>
+			</div>
+			
+			<div>		
+				<h3>0. 브라우즈 지원</h3>
+
+						Browser Support<br>
+						<img src="./image/i13.gif">
+						<img src="./image/i14.gif">
+						<img src="./image/i15.gif">
+						<img src="./image/i16.gif">
+						<img src="./image/i17.gif"><br>
+						Internet Explorer 9+, Firefox, Opera, Chrome, and Safari support the &lt;audio&gt; element.<br>
+						Note: Internet Explorer 8 and earlier versions, do not support the &lt;audio&gt; element.<br>
+
+			</div>
+			
+			<div>
+				<h3>1. &lt;audio&gt;태그는 웹브라우즈에서 음악을 재생해준다.</h3>
+					<ol>
+						<li>&lt;!DOCTYPE html&gt;</li>
+						<li>&lt;html&gt;</li>
+						<li>&lt;body&gt;</li>
+						<li></li> 
+						<li>&lt;audio controls&gt;</li>
+						<li>&nbsp;&nbsp;  &lt;!--&lt;source src="./horse.ogg" type="audio/ogg"&gt;--&gt;</li>
+						<li>&nbsp;&nbsp;  &lt;source src="./bm.mp3" type="audio/mpeg"&gt;</li>
+						<li>&lt;/audio&gt;</li>
+						<li></li> 
+						<li>&lt;/body&gt;</li>
+						<li>&lt;/html&gt;</li>
+					</ol>
+					
+					<audio controls>
+					  <!--<source src="./horse.ogg" type="audio/ogg">-->
+					  <source src="./bm.mp3" type="audio/mpeg">
+					</audio>
+
+			</div>
+			
+			<div>
+				<h3>2. &lt;audio&gt; 태그의 속성</h3>
+					<ul>
+						<li>src : 음악파일의 경로 설정</li>
+						<li>preload : 재생전에 모두 불러올지 설정</li>
+						<li>autoplay : 음악의 자동 재생여부 설정</li>
+						<li>loop : 반복 재생 설정</li>
+						<li>controls : 음악재생 인터페이스를 보이기 할지를 설정</li>
+					</ul>
+			</div>
+			
+			<div>
+				<h3>3. 현재 브라우즈마다 지원하는 형식이 다르다</h3>
+				
+				<img src="./image/i18.png">
+
+			</div>
+	</body>
+</html>
