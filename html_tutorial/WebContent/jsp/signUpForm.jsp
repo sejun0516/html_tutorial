@@ -115,8 +115,8 @@
 							<input type="text" id="brithday3" name="brithday3" size="6" maxlength="2"> 일 
 						</td>
 						<td>
-							<input type="radio" name="mtype" id="mtype" value="solar">양력
-							<input type="radio" name="mtype" id="mtype" value="lunar">음력
+							<input type="radio" name="mtype" id="mtype" value="solar" required>양력
+							<input type="radio" name="mtype" id="mtype" value="lunar" required>음력
 						</td>
 					</tr>
 					<tr><!-- 전화번호 -->
@@ -150,8 +150,8 @@
 							<input type="tel" id="phone3" name="phone3" size="6" maxlength="4">
 						</td>
 						<td>
-							<input type="radio" name="telplace" id="telplace" value="office">자택
-							<input type="radio" name="telplace" id="telplace" value="home">직장
+							<input type="radio" name="telplace" id="telplace" value="office" required>자택
+							<input type="radio" name="telplace" id="telplace" value="home" required>직장
 						</td>
 					</tr>
 					<tr><!-- 폰번호 -->
@@ -191,8 +191,8 @@
 							<input type="button" value="우편번호찾기" class="white"> 
 						</td>
 						<td>
-							<input type="radio" name="addrplace" id="addrplace" value="office">자택
-							<input type="radio" name="addrplace" id="addrlace" value="home">직장
+							<input type="radio" name="addrplace" id="addrplace" value="office" required>자택
+							<input type="radio" name="addrplace" id="addrlace" value="home" required>직장
 						</td>
 					</tr>
 					<tr><!-- 주소2 -->
@@ -255,8 +255,8 @@
 							<input type="text" id="company" name="company" size="20">&nbsp;<input type="button" value="찾기" class="white">
 						</td>
 						<td>
-							<input type="radio" name="companyname" id="companyname" value="office">자택
-							<input type="radio" name="companyname" id="companyname" value="home">직장
+							<input type="radio" name="companyname" id="companyname" value="office" required>자택
+							<input type="radio" name="companyname" id="companyname" value="home" required>직장
 						</td>
 					</tr>
 					<tr><!-- 사업자 번호 -->
@@ -315,8 +315,8 @@
 							<img src="../image/idsearch_text17.gif">
 						</td>
 						<td>
-							<input type="radio" name="webzine" id="webzine" value="true">수신동의
-							<input type="radio" name="webzine" id="webzine" value="false">수신하지않음
+							<input type="radio" name="webzine" id="webzine" value="true" required>수신동의
+							<input type="radio" name="webzine" id="webzine" value="false" required >수신하지않음
 						</td>
 						<td>
 							(TP에서 제공하는 Webzine 서비스를 받아보시겠습니까?)
@@ -346,7 +346,7 @@
 			</fieldset>
 			<br>
 			<fieldset id="lastfield">
-				<input type="button" value="가입" class="orange">
+				<input type="submit" value="가입" class="orange">
 				<input type="button" value="취소" class="orange">
 			</fieldset>
 		</form>
