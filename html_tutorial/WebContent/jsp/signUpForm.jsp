@@ -1,17 +1,20 @@
-<!DOCTYPE>
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
-		<title>signUp</title>
+		<title>Insert title here</title>
 	</head>
+	
 	<body>
-		<h1>회원가입</h1>
+	<h1>회원가입</h1>
 		<div>
 			<!--  index페이지로 이동 -->
-			<a href="./index.html">목록</a>
+			<a href="./jspIndex.jsp">목록</a>
 		</div>
 	
-		<form>
+		<form action = "./signUpAction.jsp" method = "post">
 			<!-- 로그인 정보 -->
 			<fieldset id="loginInfo">
 				<legend>
