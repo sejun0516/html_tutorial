@@ -175,19 +175,8 @@
 							<input type="tel" id="phone3" name="phone3" size="6" maxlength="4" value =<%=phone3%>>
 						</td>
 						<td>
-							<% 
-							if(telplace.equals("office")) {
-							%>
-								<input type="radio" name="telplace" id="telplace" value="office" checked = "checked">자택
-								<input type="radio" name="telplace" id="telplace" value="home">직장
-							<%
-							}else {
-						    %>
-								<input type="radio" name="telplace" id="telplace" value="office">자택
-								<input type="radio" name="telplace" id="telplace" value="home" checked = "checked">직장
-							<%
-							}
-							%>
+							<input type="radio" name="telplace" id="telplace" value="office" <% if(telplace.equals("office")) {%>checked <%} %>>자택
+							<input type="radio" name="telplace" id="telplace" value="home" <% if(telplace.equals("home")) {%>checked <%} %>>직장
 						</td>
 					</tr>
 					<tr><!-- 폰번호 -->
@@ -227,19 +216,9 @@
 							<input type="button" value="우편번호찾기" class="white"> 
 						</td>
 						<td>
-							<%
-							if(addrplace.equals("office")){
-							%>
-								<input type="radio" name="addrplace" id="addrplace" value="office" checked = "checked">자택
-								<input type="radio" name="addrplace" id="addrplace" value="home">직장
-							<%
-							}else {
-							%>
-								<input type="radio" name="addrplace" id="addrplace" value="office">자택
-								<input type="radio" name="addrplace" id="addrplace" value="home" checked = "checked">직장
-							<%
-							}
-							%>
+							<input type="radio" name="addrplace" id="addrplace" value="office" <% if(addrplace.equals("office")) {%>checked<%} %> >자택
+							<input type="radio" name="addrplace" id="addrplace" value="home" <% if(addrplace.equals("home")) {%>checked<%} %>>직장
+						
 						</td>
 					</tr>
 					<tr><!-- 주소2 -->
@@ -304,20 +283,9 @@
 							<input type="text" id="company" name="company" size="20" value = <%=company%>>&nbsp;<input type="button" value="찾기" class="white">
 						</td>
 						<td>
-							<%
-							if(companyname.equals("office")) {
-							%>
-								<input type="radio" name="companyname" id="companyname" value="office" checked ="checked">자택
-								<input type="radio" name="companyname" id="companyname" value="home">직장
-							<%
-							}else {
-							%>
-								<input type="radio" name="companyname" id="companyname" value="office">자택
-								<input type="radio" name="companyname" id="companyname" value="home" checked ="checked">직장
-							<%
-							}
-							%>
-								
+								<input type="radio" name="companyname" id="companyname" value="office" <% if(companyname.equals("office")) {%> checked <%} %>>자택
+								<input type="radio" name="companyname" id="companyname" value="home" <%if(companyname.equals("home")) {%> checked <%} %>>직장
+						
 						</td>
 					</tr>
 					<tr><!-- 사업자 번호 -->
@@ -377,19 +345,8 @@
 							<img src="../image/idsearch_text17.gif">
 						</td>
 						<td>
-							<%
-							if(webzine.equals("ture")) {
-							%>
-								<input type="radio" name="webzine" id="webzine" value="true" checked = "checked">수신동의
-								<input type="radio" name="webzine" id="webzine" value="false">수신하지않음
-							<%
-							}else {
-							%>
-								<input type="radio" name="webzine" id="webzine" value="true">수신동의
-								<input type="radio" name="webzine" id="webzine" value="false" checked = "checked">수신하지않음
-							<%	
-							}
-							%>
+							<input type="radio" name="webzine" id="webzine" value="true" <% if(webzine.equals("true")){ %>checked<%} %>>수신동의
+							<input type="radio" name="webzine" id="webzine" value="false"<% if(webzine.equals("false")){ %>checked<%} %>>수신하지않음
 						</td>
 						<td>
 							(TP에서 제공하는 Webzine 서비스를 받아보시겠습니까?)
