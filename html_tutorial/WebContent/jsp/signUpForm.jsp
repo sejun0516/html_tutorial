@@ -128,23 +128,23 @@
 						</td>
 						<td	colspan="2">
 							<select id="phone1" name="phone1">
-				                    	<option value="">==선택==</option>
-				                    	<option value="02">서울(02)</option>
-				                    	<option value="051">부산(051)</option>
-				                    	<option value="053">대구(053)</option>
-				                    	<option value="032">인천(032)</option>
-				                    	<option value="062">광주(062)</option>
-				                    	<option value="042">대전(042)</option>
-				                    	<option value="052">울산(052)</option>
-				                    	<option value="031">경기(031)</option>
-				                    	<option value="033">강원(033)</option>
-				                    	<option value="043">충북(043)</option>
-				                    	<option value="041">충남(041)</option>
-				                    	<option value="063">전북(063)</option>
-				                    	<option value="061">전남(061)</option>
-				                    	<option value="054">경북(054)</option>
-				                    	<option value="055">경남(055)</option>
-				                    	<option value="064">제주(064)</option>
+				                    	<option>==선택==</option>	
+				                    	<option>서울(02)</option>
+				                    	<option>부산(051)</option>
+				                    	<option>대구(053)</option>
+				                    	<option>인천(032)</option>
+				                    	<option>광주(062)</option>
+				                    	<option>대전(042)</option>
+				                    	<option>울산(052)</option>
+				                    	<option>경기(031)</option>
+				                    	<option>강원(033)</option>
+				                    	<option>충북(043)</option>
+				                    	<option>충남(041)</option>
+				                    	<option>전북(063)</option>
+				                    	<option>전남(061)</option>
+				                    	<option>경북(054)</option>
+				                    	<option>경남(055)</option>
+				                    	<option>제주(064)</option>
 							</select> -
 							<input type="tel" id="phone2" name="phone2" size="6" maxlength="4"> -
 							<input type="tel" id="phone3" name="phone3" size="6" maxlength="4">
@@ -163,8 +163,8 @@
 						</td>
 						<td colspan="3">
 							<input type="text" id="hphone1" name="hphone1" size="6" maxlength="3"> -
-							<input type="text" id="hphone2" name="hphone2" size="6" maxlength="3"> -
-							<input type="text" id="hphone3" name="hphone3" size="6" maxlength="3">
+							<input type="text" id="hphone2" name="hphone2" size="6" maxlength="4"> -
+							<input type="text" id="hphone3" name="hphone3" size="6" maxlength="4">
 						</td>
 					</tr>
 					<tr><!-- email -->
@@ -192,7 +192,7 @@
 						</td>
 						<td>
 							<input type="radio" name="addrplace" id="addrplace" value="office" required>자택
-							<input type="radio" name="addrplace" id="addrlace" value="home" required>직장
+							<input type="radio" name="addrplace" id="addrplace" value="home" required>직장
 						</td>
 					</tr>
 					<tr><!-- 주소2 -->
@@ -227,21 +227,21 @@
 						</td>
 						<td  colspan="2">
 							<select name="job" id="job">
-								<option value="" selected="selected">===선택하세요===</option>
-								<option value="job1">회사원</option>
-								<option value="job2">연구전문직</option>
-								<option value="job3">교수</option>
-								<option value="job4">학생</option>
-								<option value="job5">일반자영업</option>
-								<option value="job6">공무원</option>
-								<option value="job7">의료인</option>
-								<option value="job8">법조인</option>
-								<option value="job9">종교.언론/예술인</option>
-								<option value="job10">농.축.수산/광공업인</option>
-								<option value="job11">단체</option>
-								<option value="job12">주부</option>
-								<option value="job13">무직</option>
-								<option value="job14">기타</option>
+								<option>===선택하세요===</option>
+								<option>회사원</option>
+								<option>연구전문직</option>
+								<option>교수</option>
+								<option>학생</option>
+								<option>일반자영업</option>
+								<option>공무원</option>
+								<option>의료인</option>
+								<option>법조인</option>
+								<option>종교.언론/예술인</option>
+								<option>농.축.수산/광공업인</option>
+								<option>단체</option>
+								<option>주부</option>
+								<option>무직</option>
+								<option>기타</option>
 							</select>
 						</td>
 					</tr>
@@ -297,14 +297,14 @@
 						</td>
 						<td colspan="2">
 							<select name="interest" id="interest">
-								<option value="" selected="selected">===선택하세요===</option>
-		        				<option value="inter1">벤처창업</option>
-								<option value="inter2">business동향</option>
-								<option value="inter3">정부정책동향</option>
-								<option value="inter4">자금지원</option>
-								<option value="inter5">신기술소식</option>
-								<option value="inter6">취업/고용</option>
-								<option value="inter7">기타</option>
+								<option>===선택하세요===</option>
+		        				<option>벤처창업</option>
+								<option>business동향</option>
+								<option>정부정책동향</option>
+								<option>자금지원</option>
+								<option>신기술소식</option>
+								<option>취업/고용</option>
+								<option>기타</option>
 							</select>
 						</td>
 					</tr>
